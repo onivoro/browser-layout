@@ -1,0 +1,95 @@
+$unit: 6px;
+
+.mar-0 {
+    margin: 0;
+}
+
+.mar-1 {
+    margin: $unit;
+}
+
+.mar-2 {
+    margin: $unit * 2;
+}
+
+.mar-3 {
+    margin: $unit * 3;
+}
+
+.mar-1-l {
+    margin-left: $unit;
+}
+
+.mar-2-l {
+    margin-left: $unit * 2;
+}
+
+.mar-3-l {
+    margin-left: $unit * 3;
+}
+
+.mar-1-r {
+    margin-right: $unit;
+}
+
+.mar-2-r {
+    margin-right: $unit * 2;
+}
+
+.mar-3-r {
+    margin-right: $unit * 3;
+}
+
+.mar-1-h {
+    @extend .mar-1-l;
+    @extend .mar-1-r;
+}
+
+.mar-2-h {
+    @extend .mar-2-l;
+    @extend .mar-2-r;
+}
+
+.mar-3-h {
+    @extend .mar-3-l;
+    @extend .mar-3-r;
+}
+
+.mar-1-t {
+    margin-top: $unit;
+}
+
+.mar-2-t {
+    margin-top: $unit * 2;
+}
+
+.mar-3-t {
+    margin-top: $unit * 3;
+}
+
+.mar-1-b {
+    margin-bottom: $unit;
+}
+
+.mar-2-b {
+    margin-bottom: $unit * 2;
+}
+
+.mar-3-b {
+    margin-bottom: $unit * 3;
+}
+
+.mar-1-v {
+    @extend .mar-1-t;
+    @extend .mar-1-b;
+}
+
+.mar-2-v {
+    @extend .mar-2-t;
+    @extend .mar-2-b;
+}
+
+.mar-3-v {
+    @extend .mar-3-t;
+    @extend .mar-3-b;
+}

@@ -1,0 +1,95 @@
+$unit: 6px;
+
+.pad-0 {
+    padding: 0;
+}
+
+.pad-1 {
+    padding: $unit;
+}
+
+.pad-2 {
+    padding: $unit * 2;
+}
+
+.pad-3 {
+    padding: $unit * 3;
+}
+
+.pad-1-l {
+    padding-left: $unit;
+}
+
+.pad-2-l {
+    padding-left: $unit * 2;
+}
+
+.pad-3-l {
+    padding-left: $unit * 3;
+}
+
+.pad-1-r {
+    padding-right: $unit;
+}
+
+.pad-2-r {
+    padding-right: $unit * 2;
+}
+
+.pad-3-r {
+    padding-right: $unit * 3;
+}
+
+.pad-1-h {
+    @extend .pad-1-l;
+    @extend .pad-1-r;
+}
+
+.pad-2-h {
+    @extend .pad-2-l;
+    @extend .pad-2-r;
+}
+
+.pad-3-h {
+    @extend .pad-3-l;
+    @extend .pad-3-r;
+}
+
+.pad-1-t {
+    padding-top: $unit;
+}
+
+.pad-2-t {
+    padding-top: $unit * 2;
+}
+
+.pad-3-t {
+    padding-top: $unit * 3;
+}
+
+.pad-1-b {
+    padding-bottom: $unit;
+}
+
+.pad-2-b {
+    padding-bottom: $unit * 2;
+}
+
+.pad-3-b {
+    padding-bottom: $unit * 3;
+}
+
+.pad-1-v {
+    @extend .pad-1-t;
+    @extend .pad-1-b;
+}
+
+.pad-2-v {
+    @extend .pad-2-t;
+    @extend .pad-2-b;
+}
+
+.pad-3-v {
+    @extend .pad-3-t;
+    @extend .pad-3-b;
+}

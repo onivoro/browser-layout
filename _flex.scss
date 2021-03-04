@@ -29,6 +29,18 @@
     flex-direction: row;
 }
 
+.col-wrap {
+    @extend .flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.row-wrap {
+    @extend .flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .grow {
     flex-grow: 1;
 }

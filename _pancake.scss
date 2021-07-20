@@ -7,5 +7,8 @@
     .pancake {
         flex: 0 1 300px;
         @extend .mar-1-v;
+        @extend .flex;
+        @extend .col;
+        @extend .justify-content-space-between;
     }
 }

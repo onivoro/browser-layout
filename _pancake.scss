@@ -1,0 +1,11 @@
+@import 'flex';
+@import 'margin';
+
+.pancake-stack {
+    @extend .flex;
+    justify-content: space-around;
+    .pancake {
+        flex: 0 1 300px;
+        @extend .mar-1-v;
+    }
+}

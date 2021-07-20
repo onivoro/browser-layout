@@ -1,4 +1,5 @@
-$unit: 6px;
+@import 'units';
+
 
 .mar-0 {
     margin: 0;
@@ -16,6 +17,11 @@ $unit: 6px;
     margin: $unit * 3;
 }
 
+.mar-4 {
+    margin: $unit * 4;
+}
+
+
 .mar-1-l {
     margin-left: $unit;
 }
@@ -28,6 +34,11 @@ $unit: 6px;
     margin-left: $unit * 3;
 }
 
+.mar-4-l {
+    margin-left: $unit * 4;
+}
+
+
 .mar-1-r {
     margin-right: $unit;
 }
@@ -39,6 +50,11 @@ $unit: 6px;
 .mar-3-r {
     margin-right: $unit * 3;
 }
+
+.mar-4-r {
+    margin-right: $unit * 4;
+}
+
 
 .mar-1-h {
     @extend .mar-1-l;
@@ -55,6 +71,12 @@ $unit: 6px;
     @extend .mar-3-r;
 }
 
+.mar-4-h {
+    @extend .mar-4-l;
+    @extend .mar-4-r;
+}
+
+
 .mar-1-t {
     margin-top: $unit;
 }
@@ -67,6 +89,11 @@ $unit: 6px;
     margin-top: $unit * 3;
 }
 
+.mar-4-t {
+    margin-top: $unit * 4;
+}
+
+
 .mar-1-b {
     margin-bottom: $unit;
 }
@@ -78,6 +105,11 @@ $unit: 6px;
 .mar-3-b {
     margin-bottom: $unit * 3;
 }
+
+.mar-4-b {
+    margin-bottom: $unit * 4;
+}
+
 
 .mar-1-v {
     @extend .mar-1-t;
@@ -92,4 +124,9 @@ $unit: 6px;
 .mar-3-v {
     @extend .mar-3-t;
     @extend .mar-3-b;
+}
+
+.mar-4-v {
+    @extend .mar-4-t;
+    @extend .mar-4-b;
 }

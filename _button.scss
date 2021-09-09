@@ -14,17 +14,15 @@
 }
 
 .btn-2 {
-    @extend .btn;
+    @extend .btn-1;
     @extend .rad-2;
     @extend .mar-2;
     @extend .pad-2;
-    @extend .txt;
 }
 
 .btn-3 {
-    @extend .btn;
+    @extend .btn-1;
     @extend .rad-3;
     @extend .mar-3;
     @extend .pad-3;
-    @extend .txt;
 }

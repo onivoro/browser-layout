@@ -43,7 +43,7 @@
 
 .col-wrap {
     @extend .flex;
-    @extend .column;
+    @extend .col;
     flex-wrap: wrap;
 }
 

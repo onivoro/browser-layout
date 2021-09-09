@@ -4,13 +4,25 @@
     place-items: center;
     background-position: center;
 
-    & > *:first-child {
+    *:first-child {
         height: 100%;
         width: 100%;
         display: grid;
         place-items: center;
         .content {
             width: 100%;
+        }
+    }
+
+    &.light {
+        *:first-child {
+            @extend .bg-frost;
+        }
+    }
+
+    &.dark {
+        *:first-child {
+            @extend .bg-blackice;
         }
     }
 }

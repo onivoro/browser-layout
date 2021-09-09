@@ -1,0 +1,16 @@
+.hero {
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    background-position: center;
+
+    & > *:first-child {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        .content {
+            width: 100%;
+        }
+    }
+}

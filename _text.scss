@@ -1,0 +1,35 @@
+@import 'drop-shadow';
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.headings {
+    max-width: 100%;
+    @extend .pad-2-v;
+    @extend .pad-1-h;
+    box-sizing: border-box;
+    text-align: center;
+    @extend .txt-bold;
+    @extend .drop-shadow;
+}
+
+.heading {
+    @extend .headings;
+}
+
+.subheading {
+    @extend .headings;
+}

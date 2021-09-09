@@ -1,0 +1,30 @@
+@import 'flex';
+@import 'mar';
+@import 'pad';
+@import 'text';
+
+.btn-1 {
+    @extend .row;
+    @extend .align-items-center;
+    @extend .justify-content-center;
+    @extend .rad-1;
+    @extend .mar-1;
+    @extend .pad-1;
+    @extend .txt;
+}
+
+.btn-2 {
+    @extend .btn;
+    @extend .rad-2;
+    @extend .mar-2;
+    @extend .pad-2;
+    @extend .txt;
+}
+
+.btn-3 {
+    @extend .btn;
+    @extend .rad-3;
+    @extend .mar-3;
+    @extend .pad-3;
+    @extend .txt;
+}

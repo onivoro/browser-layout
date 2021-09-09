@@ -1,8 +1,10 @@
 @import 'flex';
+@import 'padding';
 
 .toolbar {
     @extend .row;
-    @extend .justify-content-space-between;
+    @extend .justify-content-center;
     @extend .align-items-center;
+    @extend .pad-3;
     width: 100%;
 }

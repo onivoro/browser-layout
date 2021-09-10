@@ -7,6 +7,6 @@
   "scripts": {
     "test": "jest",
     "build": "tsc -p tsconfig.json",
-    "release": "npm version minor && npm publish --access public"
+    "release": "npm version minor && npm publish --access public && git push"
   }
 }

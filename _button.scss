@@ -18,14 +18,12 @@
 
 .btn-2 {
     @extend .btn-1;
-    @extend .rad-2;
     @extend .mar-2;
     @extend .pad-2;
 }
 
 .btn-3 {
     @extend .btn-1;
-    @extend .rad-3;
     @extend .mar-3;
     @extend .pad-3;
 }

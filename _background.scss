@@ -1,6 +1,10 @@
 $frost: rgba(255, 255, 255, 0.6);
 $blackice: rgba(0, 0, 0, 0.6);
 
+.frost {
+    color: $frost;
+}
+
 .bg-frost {
     background-color: $frost !important;
     backdrop-filter: blur(8px) !important;

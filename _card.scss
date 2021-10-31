@@ -1,0 +1,9 @@
+@import 'drop-shadow';
+@import 'background';
+@import 'radius';
+
+.card {
+    @extend .drop-shadow;
+    @extend .rad-1;
+    @extend .bg-frost;
+}

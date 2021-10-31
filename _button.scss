@@ -1,4 +1,5 @@
 @import 'flex';
+@import 'background';
 @import 'margin';
 @import 'padding';
 @import 'radius';
@@ -9,8 +10,8 @@
     @extend .align-items-center;
     @extend .justify-content-center;
     @extend .rad-1;
-    @extend .mar-1;
-    @extend .pad-1;
+    @extend .mar-3;
+    @extend .pad-3;
     @extend .txt;
     @extend .txt-bold;
     text-align: center;
@@ -33,3 +34,8 @@ a, button {
     }
 }
 
+a, button {
+    &.stroked {
+        border: solid 1px $blackice;
+    }
+}

@@ -5,8 +5,12 @@ $blackice: rgba(0, 0, 0, 0.6);
     color: $frost;
 }
 
-.bg-frost {
+.bg-glass {
     background-color: $frost !important;
+}
+
+.bg-frost {
+    @extend .bg-glass;
     backdrop-filter: blur(8px) !important;
 }
 

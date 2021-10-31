@@ -6,4 +6,6 @@
     @extend .drop-shadow;
     @extend .rad-1;
     @extend .bg-frost;
+    @extend .pad-3;
+    border: solid 1px $blackice;
 }

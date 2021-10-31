@@ -4,7 +4,7 @@
 @import 'radius';
 @import 'text';
 
-.btn-1 {
+.btn {
     @extend .row;
     @extend .align-items-center;
     @extend .justify-content-center;
@@ -13,18 +13,23 @@
     @extend .pad-1;
     @extend .txt;
     @extend .txt-bold;
-    @extend .drop-shadow;
+    text-align: center;
+    transition: 333ms background-color;
     border-style: none;
 }
 
-.btn-2 {
-    @extend .btn-1;
-    @extend .mar-2;
-    @extend .pad-2;
+a {
+    @extend .btn;
+    text-decoration: none;
 }
 
-.btn-3 {
-    @extend .btn-1;
-    @extend .mar-3;
-    @extend .pad-3;
+button {
+    @extend .btn;
 }
+
+a, button {
+    &.raised {
+        @extend .drop-shadow;
+    }
+}
+

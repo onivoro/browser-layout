@@ -3,6 +3,7 @@
 
 .pancake-stack {
     @extend .flex;
+    flex-wrap: wrap;
     @extend .justify-content-space-around;
     .pancake {
         flex: 0 1 300px;

@@ -3,7 +3,7 @@
 form {
     display: block;
 
-    input, label {
+    input, label, select, option {
         @extend .btn;
     }
 }

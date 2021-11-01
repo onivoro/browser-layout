@@ -1,0 +1,9 @@
+@import 'button';
+
+form {
+    display: block;
+
+    input, label {
+        @extend .btn;
+    }
+}

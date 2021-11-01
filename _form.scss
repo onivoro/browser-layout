@@ -4,13 +4,14 @@
 form {
     display: block;
 
+    input, label, select, option, fieldset {
+        @extend .btn;
+        display: block;
+    }
+
     & > fieldset {
         @extend .row;
         @extend .justify-content-space-between;
         @extend .align-items-center;
-    }
-
-    input, label, select, option, fieldset {
-        @extend .btn;
     }
 }

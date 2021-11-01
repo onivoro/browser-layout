@@ -1,6 +1,5 @@
 @import 'flex';
 @import 'background';
-@import 'margin';
 @import 'padding';
 @import 'radius';
 @import 'text';
@@ -10,7 +9,6 @@
     @extend .align-items-center;
     @extend .justify-content-center;
     @extend .rad-1;
-    @extend .mar-3;
     @extend .pad-3;
     @extend .txt;
     @extend .txt-bold;

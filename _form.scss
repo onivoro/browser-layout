@@ -12,6 +12,5 @@ form {
 
     input, label, select, option, fieldset {
         @extend .btn;
-        display: block;
     }
 }

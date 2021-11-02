@@ -8,7 +8,6 @@ form, fieldset, input, label, select {
 form {
     width: 100%;
 
-    @extend .txt;
     @extend .pad-3;
     @extend .col;
     

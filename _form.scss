@@ -30,11 +30,11 @@ form {
         }
     }
 
-    label, input, select {
+    label, input, select, textarea {
         @extend .btn;
     }
 
-    input, select {
+    input, select, textarea {
         border: solid 1px $blackice;
     }
 

@@ -2,16 +2,13 @@
 @import 'background';
 @import 'padding';
 @import 'radius';
-@import 'text';
 
 .btn {
     @extend .row;
     @extend .align-items-center;
     @extend .justify-content-center;
     @extend .rad-1;
-    @extend .pad-3;
-    @extend .txt;
-    @extend .txt-bold;
+    @extend .pad-3;        
     text-align: center;
     transition: 333ms background-color;
     border-style: none;

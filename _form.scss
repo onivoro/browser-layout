@@ -1,26 +1,44 @@
 @import 'button';
 @import 'flex';
 
-form {
-    display: block;
+form, fieldset, input, label, select {
+    box-sizing: border-box;    
+}
 
-    input, label, select, option, fieldset {
-        @extend .btn;
-        display: block;
+form {
+    width: 100%;
+
+    @extend .txt;
+    @extend .pad-3;
+    @extend .col;
+    
+    fieldset {
+        border: none;
     }
 
     & > fieldset {
-        @extend .row;
-        width: 100%;
-        @extend .justify-content-space-between;
-        @extend .align-items-center;
+        @extend row;
+        width: 100%;   
+        justify-content: center;         
 
-        & > input, & > select {
-            @extend .grow-1;
-        }
-
-        & > label {
+        & > label {              
             width: 25%;
         }
+
+        & > input, & > select {
+            width: 75%;
+        }
+    }
+
+    label, input, select {
+        @extend .btn;
+    }
+
+    input, select {
+        border: solid 1px $blackice;
+    }
+
+    & > input[type="submit"] {
+        @extend .mar-3-t;
     }
 }

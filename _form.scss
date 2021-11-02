@@ -16,7 +16,7 @@ form {
     }
 
     & > fieldset {
-        @extend row;
+        @extend .row;
         width: 100%;   
         justify-content: center;         
 

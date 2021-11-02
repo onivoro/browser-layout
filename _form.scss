@@ -15,7 +15,7 @@ form {
         @extend .justify-content-space-between;
         @extend .align-items-center;
 
-        & > input, & > select {
+        & > input, & > label, & > select {
             @extend .grow-1;
         }
     }

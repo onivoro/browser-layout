@@ -11,10 +11,11 @@ form {
 
     & > fieldset {
         @extend .row;
+        width: 100%;
         @extend .justify-content-space-between;
         @extend .align-items-center;
 
-        & > input, & > label, & > select {
+        & > input, & > select {
             @extend .grow-1;
         }
     }

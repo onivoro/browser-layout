@@ -43,7 +43,6 @@
 .row {
     @extend .flex;
     flex-direction: row;
-    width: 100%;
 }
 
 .col-wrap {

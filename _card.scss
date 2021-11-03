@@ -1,6 +1,7 @@
 @import 'drop-shadow';
 @import 'padding';
 @import 'radius';
+@import 'background';
 
 .card {
     @extend .drop-shadow;

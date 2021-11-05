@@ -7,20 +7,5 @@
     @extend .drop-shadow;
     @extend .rad-1;
     @extend .pad-3;
-    border: solid 1px $blackice;
-
-    & > h1,
-    & > h2,
-    & > h3,
-    & > h4,
-    & > h5,
-    & > h6 {
-        border: none 1px $blackice;
-        border-bottom-style: dashed;
-    }
-
-    & > footer {
-        border: none 1px $blackice;
-        border-top-style: dashed;
-    }
+    border: solid 1px $blackice;   
 }

@@ -3,7 +3,10 @@
 @import 'margin';
 
 form, fieldset, input, label, select, textarea {
-    box-sizing: border-box;    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+    border: none;
 }
 
 form {
@@ -13,7 +16,12 @@ form {
     @extend .col;
     
     fieldset {
-        border: none;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        padding-block-start: 0;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+        padding-block-end: 0;
     }
 
     & > fieldset {
